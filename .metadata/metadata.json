@@ -1,0 +1,12 @@
+﻿{
+	"name":	"Battle Tester",
+	"id":	"battletester",
+	"version":	"1",
+	"supported_game_version":	"1.*",
+	"short_description":	"Battletester",
+	"tags":	["Utilities"],
+	"picture": "thumbnail.png",
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

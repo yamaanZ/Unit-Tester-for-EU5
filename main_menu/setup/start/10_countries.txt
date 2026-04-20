@@ -1,0 +1,255 @@
+current_age = age_1_traditions
+
+# own_control_core
+# own_control_integrated
+# own_control_conquered
+# own_control_colony
+# own_core
+# own_conquered
+# own_integrated
+# own_colony
+# control_core
+# control
+# our_cores_conquered_by_others
+
+countries = {
+	countries = {
+		TEST1 = {	#TESTER1
+		own_control_core = {
+			prague slany rakovnik zatec tepla loket cheb tachov domazlice
+			klatovy plzen jachymov most husinec usti_nad_labem decin
+			litomerice beroun turnov frydlant prachen krumlov pisek
+			budejovice j_hradec benesov mlada_boleslav kourim kutna_hora
+			bechyne jicin podebrady caslav nachod nemecky_brod
+			chrudim hradec_kralove klodzko litomysl trebon
+			bautzen gorlitz hoyerswerda rothenburg_oberlausitz marienstern
+			zittau pirna boleslawiec zlotoryja jawor kamienna_gora
+			bavaria_regen grafenau passau rohrbach freistadt perg 
+			waidhofen_an_der_thaya zwettl krems dacice horn korneuburg
+			hollabrunn znojmo jihlava pernstejn brno hodonin mistelbach
+			ganserndorf bitov vyskov prostejov zabreh sumperk olomouc
+			prerov vizovice trencin hlohovec povazska_bystrica 
+			pribor hradiste holic bratislava trnava zilina tesin
+			bielsko zywiec turciansky_svaty_martin prievidza kremnica
+			nitra samorin liptovsky_mikulas
+		}
+
+		starting_technology_level = 3
+		include = "catholic_monarchy_no_coast"
+		include = "expl_northern_europe"
+
+		government = {
+			regnal_numbers = {
+				name_odoacer = 2
+				name_wenceslas = 3
+				name_rudolf = 1
+				name_henry = 1
+				name_john = 1
+				name_vladislav = 1
+			}
+
+			ruler = boh_john_luxembourg
+
+			ruler_term = {	 character = boh_otakar_ii_premyslid start_date = 1253.12.23 end_date = 1278.8.26 regnal_number = 2	}
+			ruler_term = { character = boh_wenceslaus_ii_premyslid start_date = 1278.8.26 end_date = 1305.6.21 regnal_number = 2 }
+			ruler_term = { character = boh_wenceslaus_iii_premyslid start_date = 1305.6.21 end_date = 1306.8.4 regnal_number = 3 }
+			ruler_term = { character = boh_rudolf_habsburg start_date = 1306.8.4 end_date = 1307.7.3 regnal_number = 1 }
+			ruler_term = { character = tir_henry_gorizia start_date = 1307.7.3 end_date = 1310.8.31 regnal_number = 1 }
+			ruler_term = { character = boh_john_luxembourg start_date = 1310.8.31 regnal_number = 1 }
+
+			centralization_vs_decentralization = -100
+			aristocracy_vs_plutocracy = -100
+			serfdom_vs_free_subjects = -80
+			traditionalist_vs_innovative = -20
+			spiritualist_vs_humanist = -50
+			mercantilism_vs_free_trade = -20
+			offensive_vs_defensive = 40
+			land_vs_naval = -75
+			quality_vs_quantity = 0
+			belligerent_vs_conciliatory = -10
+			capital_economy_vs_traditional_economy = 75
+			individualism_vs_communalism = -30
+			outward_vs_inward = -20
+
+			privilege = {
+				inaugural_diplomas
+				ius_teutonicum
+			}
+
+		}
+
+		tolerated_cultures = {
+			german_silesian
+			sorbian
+			upper_palatine
+		}
+
+		country_rank = rank_kingdom
+		capital = prague
+		dynasty = luxembourg_dynasty
+
+		#Setup to accurately portray the starting situation
+		currency_data = {
+			war_exhaustion = 5
+		}
+	}
+
+TEST2  = { 
+		own_control_core = {
+			#Lesser Poland
+			krakow chrzanow ksiaz_wielki proszowice
+			kielce opoczno przedborz zarnow
+			czestochowa lelow mstow
+			lublin janow_lubelski kazimierz lukow lubartow urzedow
+			nowy_sacz biecz czchow jaslo nowy_targ
+			pilzno busko_zdroj debica tarnow wislica
+			radom ilza stezyca szydlowiec zwolen
+			sandomierz kunow opatow rudnik_poland
+			wieliczka myslenice
+			#Greater Poland
+			gniezno mogilno trzemeszno
+			kalisz ostrow_wielkopolski pleszew
+			konin kolo lad_konin
+			koscian babimost grodzisk_wielkopolski rawicz srem
+			naklo wyrzysk zlotow
+			poznan buk czarnkow miedzyrzecz oborniki skwierzyna szamotuly wielen
+			pyzdry kozmin sroda_wielkopolska
+			znin chodziez szubin
+			chelmno brodnica grudziadz lubawa torun
+			bydgoszcz inowroclaw
+			gdansk gniew koscierzyna mirochowo puck tczew
+			tuchola bialobork czluchow nowe swiecie
+			dobrzyn lipno rypin oravsky_podzamok oswiecim
+			pszczyna siewierz bytom lubliniec olesno kluczbork 
+			sycow milicz toszek raciborz kozle hlucin opava
+			krnov fryvaldov nysa grodkow ziebice niemcza rychbach
+			swidnica sroda_slaska wolow legnica glogow szprotawa
+			kozuchow zagan zielona_gora sulechow krosno_odrzanskie
+			guben torzym gorzow santok czlopa radomsko brzeznica
+			sieradz turek szadek tuszyn piotrkow_trybunalski
+			lodz zgierz leczyca rawa sochaczew orlow gostynin
+			gabin uniejow wschowa gora trzebnica olesnica
+			wroclaw olawa brzeg niemodlin opole strzelce_opolskie
+			prudnik namyslow glubczyce biala_rawska grojec czersk
+			warsaw ciechanow plock sierpc szrensk garwolin liw 
+			kamieniec rozan przasnysz nibork ostroda kwidzyn
+			zary spremberg plonsk zakroczym tarczyn 
+			malbork elblag dzierzgon morag olsztyn frombork
+			lubica presov bardejov sanok krosno rzeszow 
+			piskorowice krasnystaw ugrovesk wlodawa biala_podlaska
+			mielnik sokolow nur ostroleka szczytno 
+			levoca walcz nowoszczecin balga lidzbark ryn_poland 
+			elk kolno lomza zambrow drohiczyn suraz bielsk_podlaski
+			brest_litowsk malaryta chelm grabowiec belz lubaczow
+			wizna tykocin goniadz barten bradenburg_prussia 
+			
+
+			#test Extra
+
+
+			# own_control_integrated, but culture accepted
+			#Wielun
+			wielun ostrzeszow wieruszow
+
+			#Kujavia
+			wloclawek kowal radziejow
+		}
+		own_core = {
+		}
+
+		starting_technology_level = 3
+		include = "expl_eastern_europe"
+		include = "eastern_european_catholic_monarchy_no_coast"
+		include = "eastern_european_catholic"
+		government = {
+			type = monarchy
+			heir_selection = semi_salic_law
+
+			ruler = pol_casimir_iii_piast
+			ruler_term = {	character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1	}
+			ruler_term = {	character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3	}
+			regnal_numbers = {
+				name_vladislav = 1
+				name_casimir = 3
+			}
+
+			centralization_vs_decentralization = -100
+			traditionalist_vs_innovative = 20
+			spiritualist_vs_humanist = 10
+			aristocracy_vs_plutocracy = -100
+			serfdom_vs_free_subjects = -70
+			mercantilism_vs_free_trade = -70
+			belligerent_vs_conciliatory = 0
+			quality_vs_quantity = 0
+			offensive_vs_defensive = -70
+			land_vs_naval = -60
+			capital_economy_vs_traditional_economy = 90
+			individualism_vs_communalism = -20
+			outward_vs_inward = 0
+
+			reforms = {
+				feudal_nobility
+				agricultural_cultivation
+			}
+
+			laws = {
+				language_of_pleading = language_of_pleading_court
+				heir_religion_law = heir_same_religion_group
+			}
+
+			privilege = {
+
+				#Nobles
+				nobles_land_rights
+				noble_serfdom_rights
+				nobility_council
+
+				#Clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clergy_papal_emissary
+
+				#Burghers
+				polish_merchant_seal
+				novi_fori
+				urban_development_grants
+				building_rights
+				land_of_commerce
+
+				#Commoners
+				peasants_free_peasantry
+				peasants_allowed_weapons_privilege
+				no_labor_sunday
+			}
+
+		}
+		capital = krakow
+		dynasty = piast_dynasty
+		country_rank = rank_kingdom
+		court_language = church_dialect
+
+		timed_modifier = {
+			modifier = "interdict"
+			start_date = 1000.1.1
+			date = 1342.1.1
+			size = 1
+		}
+
+		accepted_cultures = {
+			greater_polish
+			silesian
+		}
+
+		tolerated_cultures = {
+			kashubian
+			ashkenazi
+		}
+
+		#Setup to accurately portray the starting situation
+		currency_data = {
+			war_exhaustion = 5
+		}
+
+	}
+	}
+}

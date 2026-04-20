@@ -1,0 +1,12 @@
+Steps for mod:
+1. set up starting borders equal population. Increase population of locations in Poland and Czechia and make sure they have equal cities and towns. Remove Poland minus control
+2. Set rulers to 50/50/50 and 30 years old and set traits
+3. Maybe give ruler traits of proximity speed 10000% and research speed 100000% and institution spread 1000000%. Czech ruler name:
+Jiri (George) and Pawel for Poland
+5. Make situation giving actions: give money, give manpower, give research progress, change Age event (changes date for each age), 
+start war test, 50/50/50 general event, set dice roll event, research military advances event for each age (see Russian event). 
+6. Set manpower buildings to 1 day construction time
+7. Turn off AI
+8. Increase Promotion Speed 1000000000%
+9. Add researches in Age of traditions for bonus light/heavy infantry power, light heavy cav power, artillery power 
+

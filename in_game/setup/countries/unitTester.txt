@@ -1,0 +1,26 @@
+TEST1 = {
+	color = rgb { 77 77 255 }
+
+	unit_color0 = rgb {	110 70 39 }
+	unit_color1 = rgb {	200 4 5 }
+	unit_color2 = rgb {	103 118 165 }
+
+	culture_definition = czech
+	religion_definition = catholic
+	description_category = military
+	difficulty = 1
+}
+
+TEST2 = {
+
+	color = rgb { 255 26 26 }
+
+    unit_color0 = rgb {	214 42 30 }
+	unit_color1 = rgb {	252 248 245 }
+	unit_color2 = rgb {	52 137 213 }
+
+	culture_definition = lesser_polish
+	religion_definition = catholic
+	description_category = military
+    difficulty = 1
+}
